@@ -1,2 +1,2 @@
 realease: python manage.py migrate
-web: guinicorn project.wsgi --log-file=-
+web: gunicorn project.wsgi --log-file=-
